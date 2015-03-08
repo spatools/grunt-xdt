@@ -73,3 +73,6 @@ After running the grunt task it will be stored on the dist folder as
 
 ## Release History
 * 0.1.0 Initial Release
+* 0.1.1 
+    * Fix issue causing ENOENT when executing task multiple times
+    * Use async to better handle async spawn calls
